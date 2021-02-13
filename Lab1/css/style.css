@@ -1,0 +1,176 @@
+/*================ОБНУЛЕНИЕ СТИЛЕЙ================*/
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    line-height: 1;
+    font-family: "";
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: "";
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+/*================ОБНУЛЕНИЕ СТИЛЕЙ================*/
+
+body{
+    background-color: #69B9FF;
+}
+.conteiner{
+    width: 640px;
+    margin: 0 auto;
+    color: #000;
+    padding: 0 15px 0 15px;
+    background-color: #A9B5FF;
+    border-right: 3px dashed #F5977F;
+    border-left: 3px dashed #F5977F;
+    border-radius: 3%;
+    height: 100%;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #F58400;
+
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    color: #F58400;
+}
+
+
+li:before{
+    content: '';
+    background: url('../img/tick.png') left no-repeat;
+    padding: 0 35px 0 0;
+}
+
+p{
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+
+}
+
+.primer{
+    margin: 20px 0 20px 0;
+    font-size: 19px;
+    border: 2px dotted #F5B94D ;
+    padding: 5px;
+    text-align: center;
+    background-color: antiquewhite;
+    font-style: italic;
+}
+
+
+
+.img{
+    height: 100px;
+    width: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
